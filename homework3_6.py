@@ -34,9 +34,6 @@ class Birds(AnimalFarm):
 
 class Cow(Mammals):
 
-    def __init__(self, name, weight, age, homs):
-        super().__init__(name, weight, age, homs)
-
     def type_animal(self):
         return 'корова'
 
@@ -45,9 +42,6 @@ class Cow(Mammals):
 
 
 class Goat(Mammals):
-
-    def __init__(self, name, weight, age, homs):
-        super().__init__(name, weight, age, homs)
 
     def type_animal(self):
         return 'козел'
@@ -58,9 +52,6 @@ class Goat(Mammals):
 
 class Sheep(Mammals):
 
-    def __init__(self, name, weight, age, homs):
-        super().__init__(name, weight, age, homs)
-
     def type_animal(self):
         return 'баран'
 
@@ -69,9 +60,6 @@ class Sheep(Mammals):
 
 
 class Pig(Mammals):
-
-    def __init__(self, name, weight, age, homs):
-        super().__init__(name, weight, age, homs)
 
     def type_animal(self):
         return 'свин'
@@ -82,9 +70,6 @@ class Pig(Mammals):
 
 class Duck(Birds):
 
-    def __init__(self, name, weight, age, fly, swim):
-        super().__init__(name, weight, age, fly, swim)
-
     def type_animal(self):
         return 'утка'
 
@@ -94,9 +79,6 @@ class Duck(Birds):
 
 class Chicken(Birds):
 
-    def __init__(self, name, weight, age, fly, swim):
-        super().__init__(name, weight, age, fly, swim)
-
     def type_animal(self):
         return 'курица'
 
@@ -105,9 +87,6 @@ class Chicken(Birds):
 
 
 class Goose(Birds):
-
-    def __init__(self, name, weight, age, fly, swim):
-        super().__init__(name, weight, age, fly, swim)
 
     def type_animal(self):
         return 'гусь'
